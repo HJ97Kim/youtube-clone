@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <script
+      src="https://kit.fontawesome.com/400289e08c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">YouTube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+    <section class="player">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aOFNjJ9xT-4"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <div class="infoAndUpNext">
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#DreamCoding</li>
+            <li>#Ellie</li>
+            <li>#유튜브클론코딩</li>
+          </ul>
+          <div class="titleAndBtn">
+            <span class="title clamp"
+              >클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹
+              포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS,
+              Javascript</span
+            >
+            <button class="morebutton">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <div class="channel">
+          <div class="metadata">
+            <img src="images/1.jpg" alt="" />
+            <div class="info">
+              <span class="name">김형진</span>
+              <span class="subscribers">56.2만명</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="images/2.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">어느날 집가다가 만난 고양이</span>
+              <span class="name">김형진</span>
+              <span class="views">34만회</span>
+            </div>
+            <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/3.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">친구없는 친구집 놀러가기</span>
+              <span class="name">김형진</span>
+              <span class="views">14만회</span>
+            </div>
+            <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/4.jpeg" alt="" /></div>
+            <div class="info">
+              <span class="title">식빵을 너무 좋아해서 먹다가 걸린 고양이</span>
+              <span class="name">김형진</span>
+              <span class="views">98만회</span>
+            </div>
+            <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
